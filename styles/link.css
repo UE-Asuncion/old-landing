@@ -1,0 +1,51 @@
+div.header > a.home {
+    float: left;
+    margin-left: 2em;
+    /* color: white;
+    font-size: 16px;
+    text-decoration: none; */
+}
+/* div.header > a.home:hover {
+    text-decoration: underline;
+} */
+div.header > a.home > img {
+    width: auto;
+    height: 40px;
+    border-radius: 100px;
+    
+}
+div.header > a.home > img:hover {
+    background-color: #cbcbcb36;
+}
+.navigation {
+    font-size:15px;
+    text-align: center;
+    color: #1B262C;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navigation:hover {
+    text-decoration: underline;
+}
+
+.goto {
+    text-align: center;
+}
+
+.img-container {
+    width: 70%;
+    margin:auto auto 5px;
+}
+.img-container > img{
+    width:auto;
+    height:200px;
+}
+.img-container > .img-size2{
+    width:auto;
+    height:110px;
+}
+.img-container > .img-size3{
+    width:auto;
+    height:150px;
+}

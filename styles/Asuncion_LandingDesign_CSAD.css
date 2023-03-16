@@ -1,0 +1,79 @@
+body {
+    margin: auto;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+ul {
+    list-style: circle;
+}
+ul > ul {
+    list-style: disc;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', serif;
+}
+.header {
+    margin: 0 0 2em;
+    padding: 1.5em 2em 2em;
+    background-color: #1B262C;
+    color: white;
+}
+.header > h1 {
+    text-align: center;
+}
+.content {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+.content > .grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+/* .content > a {
+    padding: 10px 15px;
+    text-align: center;
+    color: #1B262C;
+    border: 2px solid #1B262C;
+    border-radius: 2px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.content > a:hover {
+    font-size: 1.1em;
+} */
+
+.button > a {
+    text-align: center;
+    color: #1B262C;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: .9em;
+}
+.button > a > * {
+    margin: 0;
+}
+.button > a > img {
+    width: auto;
+    height: 150px;
+}
+.button > a > hr {
+    width: 30%;
+    border: 1.5px solid #1B262C;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    /* float: left;
+    width: 20%; */
+    margin-left: 2em;
+    margin-right: 2em;
+    border-radius: 20px;
+}
+.button:hover {
+    background-color: #cbcbcb36;
+}
+.button:hover > a > hr {
+    width:50%;
+}

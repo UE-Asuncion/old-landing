@@ -1,0 +1,86 @@
+body {
+    margin: auto;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+ul {
+    padding-left: 1.5em;
+    list-style-image: url('imgs/arrow.png');
+}
+ul > ul {
+    list-style-image: url('imgs/arrow2.png');
+}
+.header {
+    margin: 0 0 3em;
+    padding: 3em 2em 2em;
+    background-color: #1B262C;
+    color: white;
+}
+.header > .head-content {
+    margin: 2em;
+    padding-left: 7em;
+    text-align: left;
+}
+.header > .head-content > * {
+    font-weight: 500;
+    margin: 0px;
+}
+.content {
+    width: 70%;
+    margin: auto;
+    color: #505050;
+}
+.content > .profile {
+    margin: 0;
+}
+.content > .profile > p {
+    text-align: justify;
+    text-indent: 3em;
+}
+.content > * {
+    padding: 1em;
+}
+.content div {
+    margin: 3em 0;
+}
+.content > .column {
+    margin: 0 1em 3em;
+    float: left;
+}
+.content > .left {
+    width: 30%;
+}
+.content > .left > * > h1 {
+    font-size: 1.3em;
+}
+.content > .right {
+    width: 55%;
+    margin-right: 0;
+    padding-left:2em;
+    padding-right:0;
+    border-left: 1.5px solid #1B262C;
+}
+
+.content  * > h1 {
+    font-size: 1.7em;
+    color: #1B262C;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    margin-bottom: 0;
+}
+.content * > h2 {
+    font-size: 1.3em;
+    margin-bottom: 3px;
+    font-weight: lighter;
+}
+.content * > p {
+    margin-top: 3px;
+}
+.content * > .subtitle {
+    font-size: .8em;
+}
+
+hr {
+    margin-top: 0;
+    border: 1px solid #1B262C;
+    margin-left: 0;
+}
